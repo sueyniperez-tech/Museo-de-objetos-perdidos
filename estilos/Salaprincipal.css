@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+
+#Salaprincipal {
+	width: 100%;
+	display: flex;
+}
+
+#Salaprincipal #Presentacion {
+ background-color:#c5a984;
+	width: 50%;
+	height: 300px;
+ }
+
+#Salaprincipal  #foto{
+	width: 50%;
+	height: 300px;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+#Salaprincipal  #foto img{
+	width: 90%;
+	height: 90%;
+}
+
+#titulosdelindex {
+	color: #3f1e00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	float: left;
+    text-align: center;
+	padding: 15px 195px;
+}
+
+h2 {
+    color: #854d20;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 28px;    
+	float: left;
+	text-align: center; 
+}
+
+p {
+	color: #492401;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 17px;
+	float: left;
+	text-align: center;
+    padding: 15px;
+}
+
+#parrafo {
+	color: rgb(75, 3, 3);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	padding: 25px;
+	line-height: 22px;
+    font-size: 16px;
+}
+
+/* footer  */
+
+footer {
+	width: auto;
+	height: 200px;
+	background-color:rgb(204, 177, 151); 
+	border-top: 5px solid #ffffff;
+	display: block;
+}
+ 
+footer #redes{
+	
+	padding: 1px 355px;
+    text-align: center;
+    letter-spacing: 10px;
+	
+}

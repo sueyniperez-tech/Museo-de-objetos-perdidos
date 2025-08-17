@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#menuss{
+    width: 1150x;
+    height: 70px;
+    background-color: rgb(238, 221, 185);
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0%;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu li {
+    
+    display: inline-block
+}
+
+.menu li a:hover {
+    background-color: rgb(163, 127, 29);
+}
+
+.menu li a{
+    display: block;
+    padding: 20px 60px;
+    color: rgb(49, 37, 6);
+    text-decoration: none;
+    font-family: fantasy;
+}
